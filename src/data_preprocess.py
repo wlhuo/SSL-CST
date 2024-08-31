@@ -369,4 +369,4 @@ def preprocess(bin_file, image_file, prealigned, align, startx, starty, patchsiz
 
             
 if __name__ == "__main__":
-    nucleus_mask = seg_cell_cellpose("/data/wlhuo/CSS/data/Mouse_brain_Adult_sub.tif")
+    nucleus_mask = seg_cell_cellpose("/data/wlhuo/SSL-CST/data/Mouse_brain_Adult_sub.tif")

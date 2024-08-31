@@ -47,11 +47,11 @@ def segment_cells(bin_file, image_file, prealigned=False, align=None, patch_size
 
 
 if __name__ == "__main__":
-    bin_file = '/data/wlhuo/CSS/data/Mouse_liver_bin_2107.tsv'
-    image_file = '/data/wlhuo/CSS/data/tile_2107.tiff'
+    bin_file = '/data/wlhuo/SSL-CST/data/Mouse_liver_bin_2107.tsv'
+    image_file = '/data/wlhuo/SSL-CST/data/tile_2107.tiff'
 
     st_time = time.time()
     segment_cells(bin_file, image_file, align='rigid')
     ed_time = time.time()
-    with open('/data/wlhuo/wlhuo_research/results_4_8_1/cell_stats_0:0:0:0.txt', 'w') as fw:
+    with open('/data/wlhuo/wlhuo_research/results/cell_stats_0:0:0:0.txt', 'w') as fw:
         fw.write('time cost:{} \n'.format(ed_time-st_time))

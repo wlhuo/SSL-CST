@@ -202,7 +202,7 @@ termcolor==2.4.0
 texttable==1.7.0
 threadpoolctl==3.4.0
 tifffile==2024.2.12
-tinycss2==1.2.1
+tinySSL-CST2==1.2.1
 tobler==0.11.2
 torch==2.0.1
 torchvision==0.15.2
