@@ -20,4 +20,12 @@ You can run a demop from the command line:
 ## Results
 The final output reports the information of cells in the spatial transcriptome stained image.
 
+## Test Data
+|  Dataset |
+|  ----    |
+|[Merscope-Ovarian](https://info.vizgen.com/ffpe-showcase?submissionGuid=f83ea2a7-da9f-45cb-ae1a-570552229bda) |
+|[SeqFISH+](https://zenodo.org/records/2669683) |
+|[Stereo-seq](https://db.cngb.org/stomics/mosta/download/) |
+
+
 
